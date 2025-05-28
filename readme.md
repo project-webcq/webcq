@@ -1,3 +1,7 @@
+
+
+
+
 # MARL System Runner
 
 This project provides a framework for running Multi-Agent Reinforcement Learning (MARL) experiments with customizable profiles and session tracking.
@@ -16,6 +20,15 @@ You can run the main experiment script with a specific configuration using the f
 
 ```bash
 python main.py --profile=github-marl-3h-qtran-5agent --session=1
+```
+
+This command will run WebCQ (qtran) on github for 3h.
+
+Also, you can run our implementation of MARG with the following command：
+
+```bash
+python main.py --profile=github-marl-3h-marg-dql-5agent --session=1
+python main.py --profile=github-marl-3h-marg-cql-5agent --session=1
 ```
 
 | Argument    | Description                                                  |
