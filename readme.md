@@ -24,11 +24,10 @@ python main.py --profile=github-marl-3h-qtran-5agent --session=1
 
 This command will run WebCQ (qtran) on github for 3h.
 
-Also, you can run our implementation of MARG with the following command：
+Also, you can run our implementation of MARG (DQL setting) with the following command：
 
 ```bash
 python main.py --profile=github-marl-3h-marg-dql-5agent --session=1
-python main.py --profile=github-marl-3h-marg-cql-5agent --session=1
 ```
 
 | Argument    | Description                                                  |
