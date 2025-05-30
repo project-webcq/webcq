@@ -43,3 +43,5 @@ Ensure the profile specified by `--profile` exists in the `settings.yaml` .
 Logs and results are stored under `default_output_path`, defined in `./settings.yaml`.
 
 Run multiple experiments by changing either the profile or the session name.
+
+You can find our data split into 8 RAR archive parts in `./webtest_output/`.
