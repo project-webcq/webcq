@@ -24,17 +24,20 @@ python main.py --profile=github-marl-3h-qtran-5agent --session=1
 
 This command will run WebCQ (qtran) on github for 3h.
 
-Also, you can run our implementation of MARG with the following command：
+Also, you can run our implementation of MARG (DQL setting) with the following command：
 
 ```bash
 python main.py --profile=github-marl-3h-marg-dql-5agent --session=1
-python main.py --profile=github-marl-3h-marg-cql-5agent --session=1
 ```
 
 | Argument    | Description                                                  |
 | ----------- | ------------------------------------------------------------ |
 | `--profile` | Specifies the experiment configuration file (located in `./settings.yaml`). |
 | `--session` | Custom session name to separate logs and results.            |
+
+## Experimental Data
+
+You can find our data split into 8 RAR archive parts in `./webtest_output/`.
 
 ## 🧠 Notes
 
@@ -43,5 +46,3 @@ Ensure the profile specified by `--profile` exists in the `settings.yaml` .
 Logs and results are stored under `default_output_path`, defined in `./settings.yaml`.
 
 Run multiple experiments by changing either the profile or the session name.
-
-You can find our data split into 8 RAR archive parts in `./webtest_output/`.
