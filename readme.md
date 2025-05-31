@@ -35,6 +35,10 @@ python main.py --profile=github-marl-3h-marg-dql-5agent --session=1
 | `--profile` | Specifies the experiment configuration file (located in `./settings.yaml`). |
 | `--session` | Custom session name to separate logs and results.            |
 
+## Experimental Data
+
+You can find our data split into 8 RAR archive parts in `./webtest_output/`.
+
 ## 🧠 Notes
 
 Ensure the profile specified by `--profile` exists in the `settings.yaml` .
