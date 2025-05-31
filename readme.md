@@ -37,7 +37,7 @@ python main.py --profile=github-marl-3h-marg-dql-5agent --session=1
 
 ## Experimental Data
 
-You can find our data split into 8 RAR archive parts in `./webtest_output/`.
+You can find our experiment data on Zenodo: https://doi.org/10.5281/zenodo.15560802
 
 ## 🧠 Notes
 
